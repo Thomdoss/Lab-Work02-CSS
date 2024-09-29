@@ -1,0 +1,178 @@
+/* Q1: All the elements have margin of 0 from the top, bottom, left, and right */
+* {
+    margin: 0;
+}
+
+/* Q2: One color for the text in the main body + background image */
+body{
+    color: #B8001F;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../assets/images/dark-wood2.jpg);
+}
+
+
+
+/* Q3: Style the class container in one block with margin + width of 950px */
+.container {
+    width: 950px; 
+    margin: 5px auto; 
+    background-color: #384B70;
+    display: block; 
+}
+
+
+/* Q4: All the text is space from the border */
+.content{
+    line-height: 1.4em;
+    padding: 10px;
+}
+
+/* Q5: Choose one color for the header and footer */
+footer, nav, header{
+    background-color: #FCFAEE;
+    color: #B8001F;
+}
+
+/* Q6: Style the unordered list with no margin and 5px of padding */
+nav > ul{
+    margin: 0;
+    padding:5px;
+}
+
+/* Q7: <li> are display horizontally in uppercase */
+nav > ul > li {
+    display:inline;
+    margin-right:40px;
+    text-transform: uppercase;
+   }
+
+
+/* Q9: No underline */
+a{
+    color:rgb(37, 8, 51);
+    text-decoration: none;
+}
+
+/* Q8: Style all the link when they are visited, hover and active */
+a:link{
+    color:rgb(125, 73, 5);
+}
+
+a:hoover{
+    color:rgb(39, 125, 5);
+}
+
+a:visited{
+    color:rgb(125, 5, 13);
+}
+
+a:active{
+    color:rgb(43, 5, 125);
+}
+
+/* Q10: Style all the title in one color in uppercase */
+h1,h2,h3{
+    margin: 10px;
+    text-transform: uppercase;
+    color:rgb(8, 8, 8);
+}
+
+/* Q11: center the image with border */
+.img-centre{
+    display: block;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:2px;
+    align-items: center;
+}
+
+/* Q12: Center the video and audio */
+audio, video {
+    display: block; 
+    margin: 10px auto; 
+}
+
+
+/* Q13: Style the border off the table*/
+table{
+    width: 800px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-collapse: collapse;
+}
+
+
+/* Q14: Style the cell inside the table (border + color) */
+th,td{
+    border-radius: 5%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: aliceblue;
+}
+
+/* Q15: Style all the text inside the cell (color + uppercase) */
+th, tfoot td {
+    text-transform: uppercase; 
+    background-color: #333; 
+    color: #fff; 
+}
+
+tfoot > tr > td, #table_head{
+    background-color: #FCFAEE;
+    text-transform: uppercase; 
+    color: #333;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+/* Q17: Style the size of the text inside the footer and center it */
+footer {
+    font-size: 80%; 
+    text-align: center; 
+    padding: 1px 0; 
+}
+
+/* Q18: Center the iframe in one block*/
+iframe {
+    display: block;
+    margin: 10px auto; 
+}
+
+
+/* Q19: Style the color of the fieldset and the border*/
+fieldset {
+    width: 500px; 
+    margin: 20px auto; 
+    border: 2px solid #FCFAEE;
+    background-color: #f2f2f2;
+}
+
+/* Q20: Style the legend, the text is in italic with his proper color and background */
+legend {
+    font-style: italic; 
+    color: #fff;
+    background-color: #507687; 
+    margin: 0 10px; 
+    padding: 0 5px; 
+    border: 2px solid #FCFAEE; 
+    border-radius: 8px; 
+}
+
+/* Q21: Style the element in the fieldset, the color */
+input[type="submit"] {
+    border: 2px solid #507687; 
+    padding: 5px; 
+    background-color: #28a745; 
+    color: #fff; 
+    cursor: pointer; 
+}
+
+
+
+input[type="submit"]:hover {
+    background-color: #0056b3; 
+    color: #fff; 
+    cursor: pointer; 
+}
