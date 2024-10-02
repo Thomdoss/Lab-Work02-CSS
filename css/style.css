@@ -80,10 +80,8 @@ h1,h2,h3{
 /* Q11: center the image with border */
 .img-centre{
     display: block;
-    margin-top:5px;
-    margin-bottom:5px;
+    margin:5px auto;
     padding:2px;
-    align-items: center;
 }
 
 /* Q12: Center the video and audio */
